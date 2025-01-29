@@ -10,8 +10,8 @@ public class ArrayFunctions {
     // Function to Show Sum of Array
     static void SumOfArray(int[] num) {
         int sum = 0;
-        for (int i = 0; i < num.length; i++) {
-            sum = sum + num[i];
+        for (int j : num) {
+            sum = sum + j;
         }
         System.out.println("Sum of Array is: " + sum + "\n");
     }
