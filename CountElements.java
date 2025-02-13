@@ -27,8 +27,8 @@ public class CountElements {
 //        System.out.println("Target: " + target1 + ", Output: " + result1[0] + ", " + result1[1]);
 
         // Example 2
-        int[] arr2 = {1, 5, 8, 12, 12, 12, 19};
-        int target2 = 12;
+        // int[] arr2 = {1, 5, 8, 12, 12, 12, 19};
+        // int target2 = 12;
 //        int[] result2 = countElements(arr2, target2);
 //        System.out.println("Target: " + target2 + ", Output: " + result2[0] + ", " + result2[1]);
     }

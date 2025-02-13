@@ -16,13 +16,13 @@ public class RemDuplicates {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 4 };
+        int[] arr = { 1, 2, 4, 2, 2 };
         int newSize = removeDuplicates(arr);
 
         System.out.print("Modified Array: ");
         for (int i = 0; i < newSize; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.println("\nSize of Modified Array: " + newSize);
+        // System.out.println("\nSize of Modified Array: " + newSize);
     }
 }
